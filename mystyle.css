@@ -1,0 +1,21 @@
+* {
+    margin: 0
+    padding: 0;
+}
+.parent{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+} 
+
+body{
+    background: rgb(225, 229, 234);
+    color: rgb(84, 99, 120);
+    font-family: "Noto Sans TC",sans-serif;   
+}
+h1{
+    font-size: 30px;
+    color:rgb(84, 99, 120);
+}
+section{
+    
+}
