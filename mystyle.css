@@ -6,15 +6,28 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
 } 
-
+.logo{
+    width: 210px;
+    margin-top: 14px;
+}
+html{
+    font-size: 100%
+}
 body{
     background: rgb(225, 229, 234);
     color: rgb(84, 99, 120);
-    font-family: "Noto Sans TC",sans-serif;   
+    font-family: "Noto Sans TC",sans-serif;  
+    line-height: 1.7;
+}
+a{
+    text-decoration: none;
 }
 h1{
     font-size: 30px;
     color:rgb(84, 99, 120);
+}
+img{
+    max-width: 100%;
 }
 section{
     
