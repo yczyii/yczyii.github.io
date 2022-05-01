@@ -1,5 +1,6 @@
 html{
-    font-size: 100%
+    font-size: 100%;
+    text-align: left;
 }
 body{
     background: #fffcf5;
@@ -7,3 +8,4 @@ body{
     font-family: "Noto Sans TC",sans-serif;  
     line-height: 1.7;
 }
+
