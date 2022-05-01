@@ -18,6 +18,7 @@
 }
 .main-nav li{
     margin-left: 36px;
+    border-radius: 14px;
 }
 .main-nav a {
     color: #4e6274

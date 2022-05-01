@@ -1,0 +1,9 @@
+html{
+    font-size: 100%
+}
+body{
+    background: #fffcf5;
+    color: rgb(84, 99, 120);
+    font-family: "Noto Sans TC",sans-serif;  
+    line-height: 1.7;
+}
