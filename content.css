@@ -23,3 +23,6 @@ nav a:hover{
     margin: 0 auto;
     padding: 0 4;
 }
+a{
+    text-decoration: none;
+}
