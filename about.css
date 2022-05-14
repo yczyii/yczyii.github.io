@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     font-size: 100%;
     text-align: justify;
@@ -9,17 +13,17 @@ body{
     line-height: 1.7;
 }
 
-nav{
+.nav{
     font-size: 1.25rem;
     margin-top: 34px;
     list-style: none;
-    text-align:right;
+    text-align: right;
 }
-nav a:hover{
+.nav:hover{
     color: white
 }
 .wrapper{
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 4;
+    padding: 0 auto;
 }
