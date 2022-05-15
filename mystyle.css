@@ -14,7 +14,7 @@
     display: flex;
     font-size: 1.25rem;
     margin-top: 34px;
-    list-style: none;
+    list-style: square;
 }
 .main-nav li{
     margin-left: 36px;

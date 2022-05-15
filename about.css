@@ -8,19 +8,16 @@ body{
     font-family: "Noto Sans TC",sans-serif;  
     line-height: 1.7;
 }
-
-.ha{
+nav{
     font-size: 1.25rem;
-    margin-top: 34;
+    margin-top: 34px;
+    text-decoration: none;
     text-align: right;
-    list-style: none;
-    
 }
-.ha:hover{
-    color: white;
+nav a:hover{
+    color: white
 }
-.wrapper{
-    max-width: 1100px;
-    margin:  0 auto;
-    padding: 0 auto;
+
+a{
+    text-decoration: none;
 }
