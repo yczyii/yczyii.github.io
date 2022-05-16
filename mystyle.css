@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 100%;
+}
+body{
+    background: #fffcf5;
+    color: rgb(84, 99, 120);
+    font-family: "Noto Sans TC",sans-serif;  
+    line-height: 1.7;
+}
 .parent{
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -20,10 +29,10 @@
     margin-left: 36px;
 }
 .main-nav a {
-    color: #4e6274
+    color: #4e6274;
 }
 .main-nav a:hover{
-    color: white
+    color: white;
 }
 .page-header{
     display: flex;
@@ -42,19 +51,9 @@
     background-size: cover;
     position: relative;
 }
-html{
-    font-size: 100%
-}
-body{
-    background: #fffcf5;
-    color: rgb(84, 99, 120);
-    font-family: "Noto Sans TC",sans-serif;  
-    line-height: 1.7;
-}
 a{
     text-decoration: none;
 }
-
 img{
     max-width: 100%;
 }
