@@ -8,7 +8,6 @@ body{
     font-family: "Noto Sans TC",sans-serif;  
     line-height: 1.7;
 }
-
 a{
     text-decoration: none;
 }
@@ -17,15 +16,16 @@ a{
     font-size: 1.25rem;
     margin-top: 34px;
     list-style: none;
+    text-align: right;
 }
 .main-nav li{
     margin-left: 36px;
 }
 .main-nav a {
-    color: #4e6274
+    color: #4e6274;
 }
 .main-nav a:hover{
-    color: white
+    color: white;
 }
 .page-header{
     display: flex;
@@ -35,5 +35,4 @@ a{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 4%;
-    text-align: right;
 }

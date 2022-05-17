@@ -4,6 +4,7 @@
 }
 html{
     font-size: 100%;
+    text-align: justify;
 }
 body{
     background: #fffcf5;
@@ -11,33 +12,7 @@ body{
     font-family: "Noto Sans TC",sans-serif;  
     line-height: 1.7;
 }
-.parent{
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-} 
-.logo{
-    width: 140px;
-    margin-top: 14px;
-}
-.main-nav{
-    display: flex;
-    font-size: 1.25rem;
-    margin-top: 34px;
-    list-style: square;
-}
-.main-nav li{
-    margin-left: 36px;
-}
-.main-nav a {
-    color: #4e6274;
-}
-.main-nav a:hover{
-    color: white;
-}
-.page-header{
-    display: flex;
-    justify-content: space-between;
-}
+
 .wrapper{
     max-width: 1100px;
     margin: 0 auto;
@@ -51,9 +26,5 @@ body{
     background-size: cover;
     position: relative;
 }
-a{
-    text-decoration: none;
-}
-img{
-    max-width: 100%;
-}
+
+
