@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 15px;
 }
 html{
     font-size: 100%;
@@ -19,6 +19,41 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
+}
+/*照片靠右的section*/
+.imageunit{
+    margin: 0;
+    overflow: hidden;
+}
+.imageunit img{
+    float: right;
+    margin: 0 0 10px 20px;
+    width: 50%;
+    height: auto;
+}
+.imageunit{
+    margin: 0 0 1em;
+}
+/*照片的section*/
+.photos{
+    margin: 0 0 24px;
+}
+.photos ul{
+    padding: 10px;
+    overflow: hidden;
+}
+.photos ul li{
+    list-style-type: none;
+    float:left;
+    width: 33.333%;
+}
+.photos ul li img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.container{
+    position: 
 }
 a{
     text-decoration: none;
