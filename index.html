@@ -16,25 +16,39 @@
     </head>
     <body style="padding-top: 50px">
         <!--導覽列-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand">Lauren Yu</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <nav class="navbar sticky-top navbar-light bg-light">
+            <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#name" class="nav-item nav-link">About</a>
-                    <a href="#personal" class="nav-item nav-link">Personality</a>
-                    <a href="#like" class="nav-item nav-link">Intrest</a>
-                    <a href="#gallery" class="nav-item nav-link">Film Gallery</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">主頁</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#name">簡介</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#personal">關於我</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">興趣</a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#like">美食</a></li>
+                    <li><a class="dropdown-item" href="#star">追星</a></li>
+                    <li><a class="dropdown-item" href="#photos">攝影</a></li>
+                 </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#gallery">底片藝廊</a>
+                    </li>
+                 </ul>
             </div>
         </div>
     </nav>
     <div class="cover"></div>
-    <article id="myname">
+    <article>
             <div class="inner">
             <h2 id="name">名字含意<i class="fa-solid fa-address-card"></i></h2>
                 <section class="imageunit">
@@ -61,7 +75,7 @@
                 </section>
             </div>
     </article>                          
-    <article id="personal">
+    <article>
             <div class="inner">
             <h2>長相特徵<i class="fa-regular fa-face-smile"></i></h2>
                 <section class="imageunit">
@@ -70,7 +84,7 @@
                 </section>
             </div>
     </article>          
-    <article id="browine">
+    <article>
              <div class="inner">
              <h2 id="like">興趣<i class="fa-solid fa-heart-circle-bolt"></i></h2>
              <h5>吃美食</h5>
@@ -83,7 +97,7 @@
     </article>
     <article>
              <div class="inner">
-             <h5>追星</h5>
+             <h5 id="star">追星</h5>
                  <section class="imageunit">
                      <p>來說說我的另一個興趣：追星！很多人會認為追星很不務正業，但事實上不盡如此。因為追星，我也因此接觸了很多自己沒想過會涉足的領域，例如：經營追星帳，舉辦應援活動，設計偶像應援物......等等。有時候真的沒有想到，原來一個人可以為了熱愛的人、事、物如此樂在其中。國小六年級就因為一首青春修煉手冊而喜歡上TFBOYS裡面的易烊千璽，喜歡了大概8年左右。</p>
                      <p>而後又一次因緣際會下，知道了和他也頗有淵源的同門師弟-時代少年團的宋亞軒。我想這就是一種名為緣分的神奇感覺吧！為什麼這麼說呢？除了他們倆都是同公司外，在宋亞軒還是公司練習生的時候，我在所有練習生的合照裡面就唯獨被他可愛的笑容吸引，所以在我想要去關注他的微博的時候我才發現，我在好幾年前就已經關注他了！因為整個暑假被疫情影響，都沒有出去玩的機會，所以我就每天幾乎都在看他以前的物料。</p>
@@ -131,7 +145,7 @@
         </div> 
     </article>
         <section>
-               <h5>底片攝影</h5>
+               <h5 id="photos">底片攝影</h5>
                 <p>我最近迷上了底片攝影，底片相機的魅力對我來說是很多現代人無法體會到的快樂。可能會有人說：底片已經是退流行的東西了，想要拍出復古感的照片只要調個復古一點的色調；或是直接下載底片相機app就好，但我認為這兩者是無法拿來比較的，除了年代，還有那種珍惜、害怕會拍失敗的感覺，是現在手機app無法模擬出來的。不過我光拍一捲底片就花了快兩個多月才拍完，去洗第一卷底片時，才發現第一張照片已經是寒假時拍的照片了，神奇的地方就在於，因為拍當下無法知道自己拍的如何，所以總有種開驚喜包的感覺。也因為想要記錄自己的底片成長，所以在INSTAGRAM開設了一個攝影帳，專門放自己拍的照片們。</p>
         </section>
         <section id="gallery">
